@@ -8,11 +8,14 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-
+*{
+    margin: 0;
+}
 
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
@@ -27,6 +30,10 @@ body{
     .navbar{
         display: flex;
         justify-content: space-between;
+    }
+    .icons img{
+        background-color: #540B51;
+        
     }
     #email{
         width: 95%;
@@ -43,7 +50,7 @@ body{
     #google{
         width: 95%;
         height: 50px;
-        background-color:#2E71A6;
+        background-color:#4285F4;
         border-radius: 5px;
         color: white;
         padding: 5px 5px;
@@ -81,3 +88,40 @@ h1{
     color:#ECB12F;
 }
 
+.screenshot img{
+        width: 400px;
+        transform-origin: 50% 50%;
+        margin: 0;
+    }
+
+    .company {
+        position: absolute;
+        top: 510px;
+        background-color:#F3EAE2;
+        z-index: 1;
+        width: 400px;
+      }
+    .logos img{
+        width:90px;
+        padding: 1px;
+    }
+    .company p{
+        text-align: center;
+        text-transform: uppercase;
+        width: 98%;
+        font-weight: bold;
+    }
+
+    .connect img{
+        width: 400px;
+        padding-bottom: 30px;
+    }
+   
+    .channels{
+        background-color: #F3EAE2;
+        padding: 10px;
+    }
+    .channels img{
+        width: 400px;
+    }
+   
