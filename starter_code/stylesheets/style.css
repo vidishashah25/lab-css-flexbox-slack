@@ -8,7 +8,9 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-
+*{
+    margin: 0;
+}
 
 body{
     margin: 0;
@@ -99,17 +101,27 @@ h1{
         z-index: 1;
         width: 400px;
       }
-    .logos{
-        width:;
+    .logos img{
+        width:90px;
+        padding: 1px;
     }
     .company p{
         text-align: center;
+        text-transform: uppercase;
+        width: 98%;
+        font-weight: bold;
     }
 
-
-
-
-
-    .connect{
+    .connect img{
+        width: 400px;
+        padding-bottom: 30px;
+    }
+   
+    .channels{
+        background-color: #F3EAE2;
+        padding: 10px;
+    }
+    .channels img{
         width: 400px;
     }
+   
